@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.thespot" name="The Spot" version="1.1.1" provider-name="Black$tar">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0"/>
+        <import addon="plugin.video.youtube" version="5.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Check out the latest films and trailers featuring the best in independent film.</summary>
+        <description lang="en">Your Movies. Your Way.</description>
+        <platform>all</platform>
+        <website></website>
+        <source>https://mykodirepo20.000webhostapp.com/kodirepo/</source>
+    </extension>
+</addon>
+
+  
+<addon id="plugin.video.twerktube" name="Twerk Tube" version="1.1.3" provider-name="Black$tar">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0"/>
+        <import addon="plugin.video.youtube" version="5.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Best Twerk Videos On Youtube</summary>
+        <description lang="en">Watch The Best Big Booty Twerk Videos From Youtube.</description>
+        <platform>all</platform>
+        <website></website>
+        <source>https://mykodirepo20.000webhostapp.com/kodirepo/</source>
+    </extension>
+</addon>
+
+<addon id="repository.makaveli" name="The Don Killuminati" version="1.0.2" provider-name="Blackstar Atl">
+    <extension point="xbmc.addon.repository" name="The Don Killuminati">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+        </dir>
+            <info compressed="false">https://mykodirepo20.000webhostapp.com/kodirepo/addons.xml</info>
+            <checksum>https://mykodirepo20.000webhostapp.com/kodirepo/addons.xml.md5</checksum>
+            <datadir zip="true">https://mykodirepo20.000webhostapp.com/kodirepo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Best Kodi Content</summary>
+        <description lang="en">Best Kodi Content</description>
+        <genre>adult,comedy,documentary,movies,music,news,sports,trailers,tvshows</genre>
+    </extension>
+</addon>
+<addon id="plugin.audio.theblock"
+       name="[COLOR red]The[/COLOR] [COLOR snow]Block[/COLOR]"
+       version="1.0"
+       provider-name="Blackstar">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.simplejson" /> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Block</summary>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>https://mykodirepo20.000webhostapp.com/musicaddon/searchdir.txt</source>
+    <news>Search Feature Added</news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>        
+    </assets>
+  </extension>
+</addon>
+<addon id="plugin.video.xxxworld"
+       name="XXX World"
+       version="1.0"
+       provider-name="Blacksatr">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">video addon</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.atlstreams" name="ATL Streams" version="1.1" provider-name="Blackstar">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.urlresolver" version="1.2.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch the lastest Movies</summary>
+        <description lang="en">ATL Streams</description>
+        <platform>all</platform>
+        <website>www.noobsandnerds.com</website>
+        <video_guide>xtOqLY5PJDY</video_guide>
+    </extension>
+</addon>
+
+<addon id="plugin.video.shefreaky"
+       name="ShesFreaky"
+       version="1.0.1"
+       provider-name="Blackstar">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>She's Freaky offers homemade porn videos and pics featuring Sexy black girls all 100% free.</summary>
+    <description>She's Freaky offers homemade porn videos and pics featuring Sexy black girls all 100% free.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.boss" name="BOSS" version="1.2" provider-name="Blackstar">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.urlresolver" version="1.2.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Like A BOSS!</summary>
+        <description lang="en">Like A BOSS!</description>
+		<disclaimer lang="en">[COLOR=red]I Do Not OWN or Host Any Content Found in this Addon[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <website>www.noobsandnerds.com</website>
+        <video_guide>xtOqLY5PJDY</video_guide>
+    </extension>
+</addon>
+</addons>

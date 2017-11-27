@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.twerktube" name="Twerk Tube" version="1.1.3" provider-name="Black$tar">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0"/>
+        <import addon="plugin.video.youtube" version="5.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Best Twerk Videos On Youtube</summary>
+        <description lang="en">Watch The Best Big Booty Twerk Videos From Youtube.</description>
+        <platform>all</platform>
+        <website></website>
+        <source>https://mykodirepo20.000webhostapp.com/kodirepo/</source>
+    </extension>
+</addon>
